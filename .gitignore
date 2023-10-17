@@ -17,5 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/public/dist
-/public/plugins
+/public/dist/*
+/public/plugins/*
