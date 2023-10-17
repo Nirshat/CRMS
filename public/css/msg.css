@@ -1,0 +1,18 @@
+#msg, #del{
+    position: fixed;
+    width:auto;
+    top:1.5rem;
+    right:1rem;
+    z-index:1100;
+    opacity:.7;
+}
+
+#msg:hover{
+    background: green;
+    opacity:70%;
+}
+
+#del:hover{
+    background: red;
+    opacity:70%;
+}

@@ -1,0 +1,49 @@
+.above-tb{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom:.8rem;
+}
+
+.above-tb .addNewHolder button{
+    border:1px solid #aaa;
+}
+
+.table-responsive{
+    /* border: 1px solid #ddd; */
+    box-shadow:0px 0px 1px 1px #ddd;
+    border-radius:5px;
+    padding:1rem;
+    background:#fff;
+}
+
+table thead th{
+    padding:.5rem .7rem 0px;
+    background:#fff;
+    color:#000;
+    font-size:17px;
+}
+
+table tbody td{
+    border: 1px solid #eee;
+    padding:.1rem .7rem;
+    color:#3d3d3d;
+}
+
+table tbody tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+.selectsHolder{
+    display: table-header-group;
+}
+
+.selectsHolder tr th{
+    padding:0px 4px 6px !important;
+}
+
+.selectsHolder tr th > *{
+    padding:6px;
+    border:1px solid #bbb;
+    border-radius:5px;
+}
